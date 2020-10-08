@@ -18,7 +18,6 @@ public class Fibonacci
          sum = fibo.getBag()[i] + fibo.getBag()[i + 1]; //the next value is the sum of previous two values
          fibo.add(sum);
       }
-      System.out.println(fibo.toString()); //prints fibonacci numbers
-      
+      System.out.println(fibo.toString()); //prints fibonacci numbers 
    }
 }
